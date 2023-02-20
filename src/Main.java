@@ -1,16 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        int numeroIF = -5;
-        if (numeroIF >= 0) {
-            if (numeroIF == 0) {
-            System.out.println("El numero " + numeroIF + " es CERO");
-            } else {
+        int numeroIF = 0;
+        if (numeroIF > 0) {
             System.out.println("El numero " + numeroIF + " es POSITIVO");
-            }
+        } else if (numeroIF < 0) {
+            System.out.println("El numero " + numeroIF + " es NEGATIVO");
         }else{
-                System.out.println("El numero " + numeroIF + " es NEGATIVO");
-            }
+            System.out.println("El numero " + numeroIF + " es CERO");
+        }
 
 
 
